@@ -1,0 +1,10 @@
+@mixin floating($radius, $shadow) {
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+@mixin grid($colnum) {
+  display: grid;
+  grid-template-columns: repeat($colnum, 1fr);
+  grid-gap: 20px;
+}

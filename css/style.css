@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@400;500;700;900&display=swap");
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  color: #f4f4f4;
+}
+body header {
+  background: black;
+}
+body .hero {
+  background: #640fc5;
+}
+
+body {
+  text-align: center;
+}
+
+.p-inline-xs {
+  padding-inline: 10px;
+}
+
+.p-inline-sm {
+  padding-inline: 20px;
+}
+
+.p-inline-md {
+  padding-inline: 30px;
+}
+
+.p-inline-lg {
+  padding-inline: 90px;
+}
+
+.p-inline-xl {
+  padding-inline: 180px;
+}
+
+.p-inline-xxl {
+  padding-inline: 360px;
+}
+
+.p-block-xs {
+  padding-block: 10px;
+}
+
+.p-block-sm {
+  padding-block: 20px;
+}
+
+.p-block-md {
+  padding-block: 30px;
+}
+
+.p-block-lg {
+  padding-block: 90px;
+}
+
+.p-block-xl {
+  padding-block: 180px;
+}
+
+.p-block-xxl {
+  padding-block: 360px;
+}
+
+.m-inline-xs {
+  margin-inline: 10px;
+}
+
+.m-inline-sm {
+  margin-inline: 20px;
+}
+
+.m-inline-md {
+  margin-inline: 30px;
+}
+
+.m-inline-lg {
+  margin-inline: 90px;
+}
+
+.m-inline-xl {
+  margin-inline: 180px;
+}
+
+.m-inline-xxl {
+  margin-inline: 360px;
+}
+
+.m-block-xs {
+  margin-block: 10px;
+}
+
+.m-block-sm {
+  margin-block: 20px;
+}
+
+.m-block-md {
+  margin-block: 30px;
+}
+
+.m-block-lg {
+  margin-block: 90px;
+}
+
+.m-block-xl {
+  margin-block: 180px;
+}
+
+.m-block-xxl {
+  margin-block: 360px;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "REM", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  display: inline;
+}
+
+.hero {
+  padding-bottom: 50px;
+}
+.hero h1 font {
+  size: 40px;
+}
+.hero .btn1 {
+  color: #f4f4f4;
+  border: none;
+  background: #0e6cff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px black;
+}
+.hero .btn2 {
+  color: #f4f4f4;
+  border: none;
+  background: #ff8700;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px black;
+}
+.hero .btn3 {
+  color: #f4f4f4;
+  border: none;
+  background: #4caf50;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 5px black;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.grid img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

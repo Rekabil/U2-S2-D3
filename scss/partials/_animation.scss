@@ -1,0 +1,16 @@
+@mixin animation($duration, $start, $end, $delay, $name) {
+  animation-duration: $duration;
+  animation-direction: $start;
+  animation-iteration-count: $end;
+  animation-delay: $delay;
+  animation-name: $name;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

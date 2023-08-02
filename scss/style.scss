@@ -1,0 +1,44 @@
+@import "./partials/animation";
+@import "./partials/button";
+@import "./partials/colors";
+
+@import "./partials/mixing";
+@import "./partials/spaces";
+@import "./partials/reset";
+@import "./partials/font";
+nav {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  ul li {
+    display: inline;
+  }
+}
+
+.hero {
+  padding-bottom: 50px;
+  h1 {
+    @include titlebig();
+  }
+  .btn1 {
+    @include btnmix(#0e6cff, 20px, 40px);
+    @include floating(10px, 5px 4px 5px black);
+  }
+  .btn2 {
+    @include btnmix(#ff8700, 20px, 40px);
+    @include floating(10px, 5px 4px 5px black);
+  }
+  .btn3 {
+    @include btnmix(#4caf50, 20px, 40px);
+    @include floating(10px, 5px 4px 5px black);
+  }
+}
+
+.grid {
+  margin-top: 20px;
+  @include grid(4);
+  img {
+    width: 100%;
+  }
+}

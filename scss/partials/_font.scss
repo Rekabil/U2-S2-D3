@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:wght@400;500;700;900&display=swap");
+
+body {
+  font: {
+    family: "REM", sans-serif;
+    weight: 400;
+    size: 20px;
+  }
+}
+
+@mixin titlebig() {
+  font {
+    size: 40px;
+  }
+}

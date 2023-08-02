@@ -1,0 +1,6 @@
+@mixin btnmix($bgcolor, $pheight, $pwidth) {
+  color: #f4f4f4;
+  border: none;
+  background: $bgcolor;
+  padding: $pheight $pwidth;
+}

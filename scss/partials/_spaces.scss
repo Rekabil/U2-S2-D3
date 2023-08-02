@@ -1,0 +1,34 @@
+$m-0: 0;
+body {
+  text-align: center;
+}
+
+$size: (
+  xs: 10px,
+  sm: 20px,
+  md: 30px,
+  lg: 90px,
+  xl: 180px,
+  xxl: 360px,
+);
+
+@each $key, $value in $size {
+  .p-inline-#{$key} {
+    padding-inline: $value;
+  }
+}
+@each $key, $value in $size {
+  .p-block-#{$key} {
+    padding-block: $value;
+  }
+}
+@each $key, $value in $size {
+  .m-inline-#{$key} {
+    margin-inline: $value;
+  }
+}
+@each $key, $value in $size {
+  .m-block-#{$key} {
+    margin-block: $value;
+  }
+}
